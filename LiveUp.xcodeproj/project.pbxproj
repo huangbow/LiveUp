@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE77A551A738E5F004940CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE77A541A738E5F004940CD /* main.m */; };
+		FAE77A581A738E5F004940CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE77A571A738E5F004940CD /* AppDelegate.m */; };
+		FAE77A5B1A738E5F004940CD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE77A5A1A738E5F004940CD /* FirstViewController.m */; };
+		FAE77A5E1A738E5F004940CD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE77A5D1A738E5F004940CD /* SecondViewController.m */; };
+		FAE77A611A738E5F004940CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE77A5F1A738E5F004940CD /* Main.storyboard */; };
+		FAE77A631A738E5F004940CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE77A621A738E5F004940CD /* Images.xcassets */; };
+		FAE77A661A738E5F004940CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE77A641A738E5F004940CD /* LaunchScreen.xib */; };
+		FAE77A721A738E60004940CD /* LiveUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE77A711A738E60004940CD /* LiveUpTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAE77A6C1A738E60004940CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE77A471A738E5F004940CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE77A4E1A738E5F004940CD;
+			remoteInfo = LiveUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAE77A4F1A738E5F004940CD /* LiveUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE77A531A738E5F004940CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE77A541A738E5F004940CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAE77A561A738E5F004940CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAE77A571A738E5F004940CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAE77A591A738E5F004940CD /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FAE77A5A1A738E5F004940CD /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FAE77A5C1A738E5F004940CD /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FAE77A5D1A738E5F004940CD /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FAE77A601A738E5F004940CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAE77A621A738E5F004940CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAE77A651A738E5F004940CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAE77A6B1A738E60004940CD /* LiveUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE77A701A738E60004940CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE77A711A738E60004940CD /* LiveUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveUpTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE77A4C1A738E5F004940CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE77A681A738E60004940CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE77A461A738E5F004940CD = {
+			isa = PBXGroup;
+			children = (
+				FAE77A511A738E5F004940CD /* LiveUp */,
+				FAE77A6E1A738E60004940CD /* LiveUpTests */,
+				FAE77A501A738E5F004940CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE77A501A738E5F004940CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE77A4F1A738E5F004940CD /* LiveUp.app */,
+				FAE77A6B1A738E60004940CD /* LiveUpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE77A511A738E5F004940CD /* LiveUp */ = {
+			isa = PBXGroup;
+			children = (
+				FAE77A561A738E5F004940CD /* AppDelegate.h */,
+				FAE77A571A738E5F004940CD /* AppDelegate.m */,
+				FAE77A591A738E5F004940CD /* FirstViewController.h */,
+				FAE77A5A1A738E5F004940CD /* FirstViewController.m */,
+				FAE77A5C1A738E5F004940CD /* SecondViewController.h */,
+				FAE77A5D1A738E5F004940CD /* SecondViewController.m */,
+				FAE77A5F1A738E5F004940CD /* Main.storyboard */,
+				FAE77A621A738E5F004940CD /* Images.xcassets */,
+				FAE77A641A738E5F004940CD /* LaunchScreen.xib */,
+				FAE77A521A738E5F004940CD /* Supporting Files */,
+			);
+			path = LiveUp;
+			sourceTree = "<group>";
+		};
+		FAE77A521A738E5F004940CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE77A531A738E5F004940CD /* Info.plist */,
+				FAE77A541A738E5F004940CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAE77A6E1A738E60004940CD /* LiveUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE77A711A738E60004940CD /* LiveUpTests.m */,
+				FAE77A6F1A738E60004940CD /* Supporting Files */,
+			);
+			path = LiveUpTests;
+			sourceTree = "<group>";
+		};
+		FAE77A6F1A738E60004940CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE77A701A738E60004940CD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE77A4E1A738E5F004940CD /* LiveUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE77A751A738E60004940CD /* Build configuration list for PBXNativeTarget "LiveUp" */;
+			buildPhases = (
+				FAE77A4B1A738E5F004940CD /* Sources */,
+				FAE77A4C1A738E5F004940CD /* Frameworks */,
+				FAE77A4D1A738E5F004940CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveUp;
+			productName = LiveUp;
+			productReference = FAE77A4F1A738E5F004940CD /* LiveUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAE77A6A1A738E60004940CD /* LiveUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE77A781A738E60004940CD /* Build configuration list for PBXNativeTarget "LiveUpTests" */;
+			buildPhases = (
+				FAE77A671A738E60004940CD /* Sources */,
+				FAE77A681A738E60004940CD /* Frameworks */,
+				FAE77A691A738E60004940CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE77A6D1A738E60004940CD /* PBXTargetDependency */,
+			);
+			name = LiveUpTests;
+			productName = LiveUpTests;
+			productReference = FAE77A6B1A738E60004940CD /* LiveUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE77A471A738E5F004940CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Bowen;
+				TargetAttributes = {
+					FAE77A4E1A738E5F004940CD = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FAE77A6A1A738E60004940CD = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FAE77A4E1A738E5F004940CD;
+					};
+				};
+			};
+			buildConfigurationList = FAE77A4A1A738E5F004940CD /* Build configuration list for PBXProject "LiveUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE77A461A738E5F004940CD;
+			productRefGroup = FAE77A501A738E5F004940CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE77A4E1A738E5F004940CD /* LiveUp */,
+				FAE77A6A1A738E60004940CD /* LiveUpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE77A4D1A738E5F004940CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE77A611A738E5F004940CD /* Main.storyboard in Resources */,
+				FAE77A661A738E5F004940CD /* LaunchScreen.xib in Resources */,
+				FAE77A631A738E5F004940CD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE77A691A738E60004940CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE77A4B1A738E5F004940CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE77A5E1A738E5F004940CD /* SecondViewController.m in Sources */,
+				FAE77A581A738E5F004940CD /* AppDelegate.m in Sources */,
+				FAE77A5B1A738E5F004940CD /* FirstViewController.m in Sources */,
+				FAE77A551A738E5F004940CD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE77A671A738E60004940CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE77A721A738E60004940CD /* LiveUpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAE77A6D1A738E60004940CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE77A4E1A738E5F004940CD /* LiveUp */;
+			targetProxy = FAE77A6C1A738E60004940CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAE77A5F1A738E5F004940CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE77A601A738E5F004940CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAE77A641A738E5F004940CD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE77A651A738E5F004940CD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAE77A731A738E60004940CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAE77A741A738E60004940CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE77A761A738E60004940CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiveUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAE77A771A738E60004940CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiveUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAE77A791A738E60004940CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LiveUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveUp.app/LiveUp";
+			};
+			name = Debug;
+		};
+		FAE77A7A1A738E60004940CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LiveUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveUp.app/LiveUp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE77A4A1A738E5F004940CD /* Build configuration list for PBXProject "LiveUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE77A731A738E60004940CD /* Debug */,
+				FAE77A741A738E60004940CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE77A751A738E60004940CD /* Build configuration list for PBXNativeTarget "LiveUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE77A761A738E60004940CD /* Debug */,
+				FAE77A771A738E60004940CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAE77A781A738E60004940CD /* Build configuration list for PBXNativeTarget "LiveUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE77A791A738E60004940CD /* Debug */,
+				FAE77A7A1A738E60004940CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE77A471A738E5F004940CD /* Project object */;
+}
